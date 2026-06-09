@@ -9,7 +9,7 @@ class Solution:
                 rPiv.append(nums[i])
             elif nums[i] < pivot:
                 lPiv.append(nums[i])
-            else nums[i] == pivot:
+            else:
                 piv.append(nums[i])
         
         return lPiv + piv + rPiv
